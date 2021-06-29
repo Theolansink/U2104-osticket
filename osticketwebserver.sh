@@ -3,6 +3,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install apache2 -y
 sudo apt install php libapache2-mod-php php-{fpm,pear,imap,apcu,intl,cgi,common,mbstring,net-socket,gd,xml-util,mysql,bcmath} -y
+sudo apt-get install curl
 sudo service apache2 start
 sudo systemctl enable apache2
 sudo curl -s https://api.github.com/repos/osTicket/osTicket/releases/latest \
