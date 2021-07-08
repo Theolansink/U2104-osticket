@@ -12,7 +12,7 @@ change this line in command to upgrade
 
 change this line to install mysql-server
 
-# change directory to /etc/conf/mysql.conf.d
+# change directory to /etc/mysql/mysql.conf.d
 
 change this line to change directory to /etc/mysql/mysql.conf.d
 
