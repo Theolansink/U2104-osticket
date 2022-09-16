@@ -6,7 +6,7 @@ sudo apt install php libapache2-mod-php php-{fpm,pear,imap,apcu,intl,cgi,common,
 sudo apt-get install curl
 sudo service apache2 start
 sudo systemctl enable apache2
-sudo yum https://github.com/osTicket/osTicket/releases/download/v1.15.4/osTicket-v1.15.4.zip
+sudo wget https://github.com/osTicket/osTicket/releases/download/v1.15.4/osTicket-v1.15.4.zip
 sudo apt-get install unzip
 sudo unzip osTicket-v*.zip -d osTicket
 sudo mv osTicket /var/www/html
